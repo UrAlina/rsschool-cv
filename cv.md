@@ -8,7 +8,13 @@
 I always strive to learn and explore new things.
 ## Skills
 * Markdown
+* Git
 ## Code Example
+```
+function multiply(a, b){
+ return a * b
+}
+```
 ## Experience
 [cv.md](https://UrAlina.github.io/rsschool-cv/cv)
 ## Education
