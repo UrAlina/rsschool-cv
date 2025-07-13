@@ -1,1 +1,116 @@
-2
+@font-face {
+  font-family: "Manufacturing_Consent";
+  src: url("./assets/fonts/ManufacturingConsent-Regular.ttf");
+}
+@font-face {
+  font-family: "Libertinus_Mono";
+  src: url("./assets/fonts/LibertinusMono-Regular.ttf");
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Manufacturing_Consent";
+  min-height: 100vh;
+  margin: 0; padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+header {
+  background-color:#000000;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+.nav-link {
+  padding: 0 45px;
+  line-height: 50px;
+  font-size: 30px;
+  color: #71229b;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+.nav-link:hover {
+  color: #dc8711;
+}
+.list {
+  font-family: "Libertinus_Mono";  
+}
+.list-link {
+  font-family: "Libertinus_Mono";
+  color: #000000;
+  text-decoration: none;
+  transition: color 0.5s;  
+}
+.list-link:hover {
+  color: #dc8711;
+}
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section {
+  width: 50%;
+}
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
+footer {
+  background-color: #000000;
+}
+.img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin-top: 30px;
+}
+.main-title {
+  font-size: 60px;
+}
+.title {
+  font-size: 40px;
+}
+.link {
+  padding: 0 45px;
+  line-height: 50px;
+  font-size: 30px;
+  color: #71229b;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+.link:hover {
+  color: #dc8711;
+}
+.year {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+ color: #71229b; 
+}
+
+.logo {
+  width: 70px;
+  height: 40px;
+  background-color:#dc8711;
+  margin: 10px;
+}
+.bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
