@@ -1,11 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Page Title</title>
+    <title>CV</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="./assets/img/avatar.ico" />
 </head>
 <body>
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+<header>
+    <div class="container"> 
+<nav>
+  <ul class="nav-list">
+    <li><a href="#contacts" class="nav-link">Contacts</a></li>
+    <li><a href="#about-me" class="nav-link">About Me</a></li>
+    <li><a href="#skills" class="nav-link">Skills</a></li>
+    <li><a href="#code-example" class="nav-link">Code Example</a></li>
+    <li><a href="#experience" class="nav-link">Experience</a></li>
+    <li><a href="#education" class="nav-link">Education</a></li>
+    <li><a href="#english" class="nav-link">English</a></li>
+  </ul>
+</nav>
+    </div>
+</header>
+<main>
+ <div class="container" class="main-container"> 
+    <section class="section" id="profile">
+        <img class="img" src="./assets/img/avatar.png" alt="My Avatar" />
+        <h1 class="main-title">Alina Ur</h1>
+    </section>
+    <section class="section" id="contacts">
+        <h2 class="title">Contacts</h2>
+        <ul>
+            <li class="list">Location: Ufo, Prussia</li>
+            <li class="list">Phone: 8 778-343-23-98</li>
+            <li class="list">Email: alina@mail.com</li>
+        </ul>
+    </section>
+    <section class="section" id="about-me">
+        <h2 class="title">About Me</h2>
+        <p class="list">I always strive to learn and explore new things.</p>
+    </section>
+    <section class="section" id="skills">
+        <h2 class="title">Skills</h2>
+        <ul>
+            <li class="list">Markdown</li>
+            <li class="list">Git</li>
+        </ul>
+    </section>
+    <section class="section" id="code-example">
+        <h2 class="title">Code Example</h2>
+        <pre>
+        <code>
+function multiply(a, b){
+ return a * b
+}
+</code>
+</pre>
+    </section>
+    <section class="section" id="experience">
+        <h2 class="title">Experience</h2>
+        <a class="list-link" href="https://UrAlina.github.io/rsschool-cv/cv" target="_blank">cv.md</a>
+    </section>
+    <section class="section" id="education">
+        <h2 class="title">Education</h2>
+        <p class="list">The Rolling Scopes School. Front-end Pre-school. (In progress)</p>
+    </section>
+    <section class="section" id="english">
+        <h2 class="title">English</h2>
+        <p class="list">A1(Beginner)</p>
+    </section>
+    
+        
+ </div>
+</main>
+<footer>
+<div class="container"> 
+    <span class="bottom">
+      <a class="link" href="https://github.com/UrAlina" target="_blank">Welcome to my GitHub</a>
+    </span>
+    <span class="year">2025</span>
+    <span class="bottom"> 
+        <a href="https://rs.school/courses/javascript-ru" target="_blank">
+            <img class="logo" src="./assets/img/rs-school-logo.png" alt="Rolling Scopes" />
+        </a>
+    </span>
+    </div>
+</footer>
 </body>
 </html>
 
